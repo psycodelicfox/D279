@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultation Request - Paradigm Pet Professionals</title>
+    <link rel="favicon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/icon.png" alt="Site icon" class="site-icon">
+        <h1>Paradigm Pet Professionals</h1>
+        <p>Evidence-based pet care advice for every pet lover</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="dog-owners.html">Dog Owners</a>
+        <a href="cat-owners.html">Cat Owners</a>
+        <a href="bird-owners.html">Bird Owners</a>
+        <a href="contact.html" class="active">Consultation</a>
+        <input type="text" placeholder="Find something...">
+	<button type="submit">Fetch</button>
+    <nav class="breadcrumb">
+        <a href="index.html">Home</a> &gt; <a href="contact.html" class="active">Consultation</a>
+    </nav>
+    </nav>    
+    <div class="container">
+        <img src="images/snake.jpg" class="standard-image" alt="Snake">
+        <h2>Request a Consultation</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required><br>
+        
+            <label for="timezone">Time Zone:</label>
+            <select id="timezone" name="timezone" required>
+                <option value="EST">Eastern Time (EST)</option>
+                <option value="CST">Central Time (CST)</option>
+                <option value="MST">Mountain Time (MST)</option>
+                <option value="PST">Pacific Time (PST)</option>
+            </select><br>
+        
+            <label for="pet-name">Pet's Name:</label>
+            <input type="text" id="pet-name" name="pet-name" required><br>
+        
+            <label for="pet-type">Pet Type:</label>
+            <select id="pet-type" name="pet-type" required>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+                <option value="fish">Fish</option>
+                <option value="small-animal">Small Animal</option>
+            </select><br>
+        
+            <label for="pet-age">Pet's Age:</label>
+            <input type="number" id="pet-age" name="pet-age" required><br>
+        
+            <label for="message">Additional Details:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+        
+            <button type="submit">Submit</button>
+        </form>        
+    </div>
+    <footer>
+        <p>2025 Paradigm Pet Professionals | <a href="faq.html">FAQ</a> | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</html>
